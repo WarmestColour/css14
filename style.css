@@ -1,0 +1,152 @@
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 2rem;
+    background-image: linear-gradient(#FC9C9F, #7EB2DD);
+}
+
+section {
+    background-color: #FFFFFF;
+    padding: 8vh 10vw;
+    margin: 8%;
+}
+
+h3,
+h4 {
+    color: #373F51;
+}
+
+p {
+    color: #1B1B1E;
+    font-size: 15px;
+    line-height: 1.4rem;
+}
+
+.arrow {
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    border-style: none none dashed dashed;
+    border-color: #FC9C9F;
+    border-width: 0.8em;
+    margin: 0 1em;
+}
+
+.arrow2 {
+    display: inline-block;
+    position: relative;
+    top: 42vh;
+    width: 100px;
+    height: 300px;
+    border-style: dashed dashed dashed none;
+    border-color: #FC9C9F;
+    border-width: 0.8em;
+    margin: 0 1em;
+}
+
+.links li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+a {
+    background-color: #FCB0B3;
+    color: white;
+    padding: 1em 1.5em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: #FCB0B3;
+}
+
+a:hover {
+    background-color: #FC9C9F;
+}
+
+a:active {
+    background-color: #FED8D9;
+}
+
+.text1::before {
+    color: #fc9cae;
+    content: "tyko už nugaros ";
+}
+
+.text2::after {
+    color: #f095b3;
+    content: " slepias po šluota";
+}
+
+.img1::before,
+.img2::after {
+    content: url(https://img.icons8.com/nolan/2x/internet-explorer.png);
+}
+
+.el1::before,
+.el2::after {
+    content: "";
+    display: inline-block;
+    background-color: #eb9dc3;
+    width: 200px;
+    height: 10px;
+}
+
+.selection p::selection {
+    color: white;
+    background-color: #de97ba;
+}
+
+.pirmaRaide p::first-letter {
+    font-weight: bold;
+    font-size: 2em;
+    color: #e3ace1;
+}
+
+.pirmaEilute p::first-line {
+    font-weight: bold;
+    color: white;
+    background-color: #cc9dca;
+}
+
+.nelyginiai li:nth-child(odd) {
+    color: white;
+    background-color: #c19dcc;
+}
+
+.lyginiai li:nth-child(even) {
+    color: white;
+    background-color: #b8a5d1;
+}
+
+.pasirinktas li:nth-child(4) {
+    background-color: #a9b2d4;
+}
+
+.pirmas li:first-child {
+    background-color: #a9b7d4;
+}
+
+.antras li:last-child {
+    background-color: #8dafd9;
+}
+
+.perejimai div {
+    height: 160px;
+    width: 160px;
+    background-color: #7EB2DD;
+    transition: all 1.5s ease-in-out;
+}
+
+.spalva:hover {
+    background-color: #FC9C9F;
+}
+
+.dydis:hover {
+  width: 50%;
+}
+
+.pozicija:hover {
+    margin-left: 200px;
+}
